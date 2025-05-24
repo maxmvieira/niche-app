@@ -82,7 +82,7 @@ def fetch_channel_details_batch(youtube, channel_ids):
     if not channel_ids: return []
     try:
         channel_response = youtube.channels().list(part="snippet,statistics", id=",".join(channel_ids)).execute()
-        current_app.logger.info(f"Detalhes do lote de canais obtidos. Itens: {len(channel_response.get("items", []))}")
+        current_app.logger.info(f"Detalhes do lote de canais obtidos. Itens: {len(channel_response.get('items', []))}")
         return channel_response.get("items", [])
     except Exception as e:
         current_app.logger.error(f"Erro ao buscar detalhes do lote de canais {channel_ids}: {e}")
