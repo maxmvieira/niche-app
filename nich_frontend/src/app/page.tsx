@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { Heart, ListFilter, ArrowUpDown, ChevronLeft, ChevronRight, LayoutDashboard, Search, Users, Folder, Zap, TrendingUp, DollarSign, MessageSquare, UserCircle, LogOut, Link as LinkIcon, Disc, MenuIcon, Flame } from "lucide-react"; // Adicionado MenuIcon e Flame
+import { Checkbox } from "@/components/ui/checkbox";
+import { Heart, ListFilter, ArrowUpDown, ChevronLeft, ChevronRight, LayoutDashboard, Zap, DollarSign, MessageSquare, UserCircle, LogOut, Disc, MenuIcon, Flame } from "lucide-react";
 
 import { saveAs } from "file-saver";
 import Papa from "papaparse";
